@@ -1,314 +1,246 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Live a Better Life — Mind. Body. Soul.</title>
-  <meta name="description" content="Evidence-based articles on nourishing your mind, strengthening your body, and feeding your soul. Practical wellness for real people." />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Live a Better Life — Mind. Body. Soul." />
-  <meta property="og:description" content="Evidence-based articles on nourishing your mind, strengthening your body, and feeding your soul." />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1200&q=80" />
-  <meta property="og:site_name" content="Live a Better Life" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Live a Better Life — Mind. Body. Soul." />
-  <meta name="twitter:description" content="Evidence-based articles on nourishing your mind, strengthening your body, and feeding your soul." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1200&q=80" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Live a Better Life — Mind. Body. Soul.</title>
+<meta content="Evidence-based articles on nourishing your mind, strengthening your body, and feeding your soul. Practical wellness for real people." name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="Live a Better Life — Mind. Body. Soul." property="og:title"/>
+<meta content="Evidence-based articles on nourishing your mind, strengthening your body, and feeding your soul." property="og:description"/>
+<meta content="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1200&amp;q=80" property="og:image"/>
+<meta content="Live a Better Life" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Live a Better Life — Mind. Body. Soul." name="twitter:title"/>
+<meta content="Evidence-based articles on nourishing your mind, strengthening your body, and feeding your soul." name="twitter:description"/>
+<meta content="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1200&amp;q=80" name="twitter:image"/>
+<link href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🌿&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script> -->
+<!-- ═══════════════════════════════════════════════ --></head>
 <body>
-
-  <!-- NAV -->
-  <nav class="nav">
-    <div class="nav-inner">
-      <a href="index.html" class="nav-logo">Live a Better Life</a>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="blog.html?cat=mind" class="nav-mbs">Mind</a></li>
-        <li><a href="blog.html?cat=body" class="nav-mbs">Body</a></li>
-        <li><a href="blog.html?cat=soul" class="nav-mbs">Soul</a></li>
-        <li><a href="blog.html">All Articles</a></li>
-        <li><a href="#newsletter" class="nav-cta">Newsletter</a></li>
-      </ul>
-      <button class="nav-hamburger" id="hamburger">&#9776;</button>
-    </div>
-  </nav>
-
-  <!-- FULL-SCREEN HERO -->
-  <section class="mbs-hero">
-    <div class="mbs-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1800&q=85&fit=crop');"></div>
-    <div class="mbs-hero-overlay"></div>
-    <div class="mbs-hero-content">
-      <span class="mbs-eyebrow">Live a Better Life</span>
-      <h1>Mind.<em>Body.</em>Soul.</h1>
-      <p class="mbs-hero-tagline">Small, evidence-based changes that compound into a life that feels as good as it looks. No fads. No hustle culture. Just the stuff that actually works.</p>
-      <div class="mbs-hero-btns">
-        <a href="#articles" class="btn-hero-primary">Start Reading</a>
-        <a href="#pillars" class="btn-hero-outline">Explore the Three Pillars</a>
-      </div>
-    </div>
-    <div class="mbs-hero-scroll">Scroll</div>
-  </section>
-
-  <!-- MIND BODY SOUL PILLARS -->
-  <section class="mbs-pillars" id="pillars">
-
-    <a href="blog.html?cat=mind" class="mbs-pillar">
-      <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=900&q=85&fit=crop&crop=center" alt="Mind — calm morning meditation clarity" />
-      <div class="mbs-pillar-overlay">
-        <p class="mbs-pillar-label">Pillar One</p>
-        <h2 class="mbs-pillar-title">Mind</h2>
-        <p class="mbs-pillar-desc">How you think determines how you live. Articles on focus, productivity, mental clarity, and the habits that protect your most valuable asset — your attention.</p>
-        <span class="mbs-pillar-link">Explore Mind Articles →</span>
-      </div>
-    </a>
-
-    <a href="blog.html?cat=body" class="mbs-pillar">
-      <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&q=85&fit=crop&crop=center" alt="Body — movement strength vitality" />
-      <div class="mbs-pillar-overlay">
-        <p class="mbs-pillar-label">Pillar Two</p>
-        <h2 class="mbs-pillar-title">Body</h2>
-        <p class="mbs-pillar-desc">Your body is the vehicle for everything. Nutrition, movement, sleep, and recovery — the fundamentals that most people overlook and everyone needs.</p>
-        <span class="mbs-pillar-link">Explore Body Articles →</span>
-      </div>
-    </a>
-
-    <a href="blog.html?cat=soul" class="mbs-pillar">
-      <img src="https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?w=900&q=85&fit=crop&crop=center" alt="Soul — stillness gratitude inner peace" />
-      <div class="mbs-pillar-overlay">
-        <p class="mbs-pillar-label">Pillar Three</p>
-        <h2 class="mbs-pillar-title">Soul</h2>
-        <p class="mbs-pillar-desc">Purpose, gratitude, reflection, and the art of slowing down. The practices that connect you to what matters most — and make the rest feel lighter.</p>
-        <span class="mbs-pillar-link">Explore Soul Articles →</span>
-      </div>
-    </a>
-
-  </section>
-
-  <!-- IMPACT QUOTE -->
-  <div class="mbs-quote-strip">
-    <blockquote>
+<!-- NAV -->
+<div id="site-nav"></div>
+<!-- FULL-SCREEN HERO -->
+<section class="mbs-hero">
+<div class="mbs-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1800&amp;q=85&amp;fit=crop');"></div>
+<div class="mbs-hero-overlay"></div>
+<div class="mbs-hero-content">
+<span class="mbs-eyebrow">Live a Better Life</span>
+<h1>Mind.<em>Body.</em>Soul.</h1>
+<p class="mbs-hero-tagline">Small, evidence-based changes that compound into a life that feels as good as it looks. No fads. No hustle culture. Just the stuff that actually works.</p>
+<div class="mbs-hero-btns">
+<a class="btn-hero-primary" href="#articles">Start Reading</a>
+<a class="btn-hero-outline" href="#pillars">Explore the Three Pillars</a>
+</div>
+</div>
+<div class="mbs-hero-scroll">Scroll</div>
+</section>
+<!-- MIND BODY SOUL PILLARS -->
+<section class="mbs-pillars" id="pillars">
+<a class="mbs-pillar" href="blog.html?cat=mind">
+<img alt="Mind — calm morning meditation clarity" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=900&amp;q=85&amp;fit=crop&amp;crop=center"/>
+<div class="mbs-pillar-overlay">
+<p class="mbs-pillar-label">Pillar One</p>
+<h2 class="mbs-pillar-title">Mind</h2>
+<p class="mbs-pillar-desc">How you think determines how you live. Articles on focus, productivity, mental clarity, and the habits that protect your most valuable asset — your attention.</p>
+<span class="mbs-pillar-link">Explore Mind Articles →</span>
+</div>
+</a>
+<a class="mbs-pillar" href="blog.html?cat=body">
+<img alt="Body — movement strength vitality" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=900&amp;q=85&amp;fit=crop&amp;crop=center"/>
+<div class="mbs-pillar-overlay">
+<p class="mbs-pillar-label">Pillar Two</p>
+<h2 class="mbs-pillar-title">Body</h2>
+<p class="mbs-pillar-desc">Your body is the vehicle for everything. Nutrition, movement, sleep, and recovery — the fundamentals that most people overlook and everyone needs.</p>
+<span class="mbs-pillar-link">Explore Body Articles →</span>
+</div>
+</a>
+<a class="mbs-pillar" href="blog.html?cat=soul">
+<img alt="Soul — stillness gratitude inner peace" src="https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?w=900&amp;q=85&amp;fit=crop&amp;crop=center"/>
+<div class="mbs-pillar-overlay">
+<p class="mbs-pillar-label">Pillar Three</p>
+<h2 class="mbs-pillar-title">Soul</h2>
+<p class="mbs-pillar-desc">Purpose, gratitude, reflection, and the art of slowing down. The practices that connect you to what matters most — and make the rest feel lighter.</p>
+<span class="mbs-pillar-link">Explore Soul Articles →</span>
+</div>
+</a>
+</section>
+<!-- IMPACT QUOTE -->
+<div class="mbs-quote-strip">
+<blockquote>
       "Take care of your body. It's the only place you have to live."
       <cite>— Jim Rohn</cite>
-    </blockquote>
-  </div>
-
-  <!-- ARTICLES BY CATEGORY -->
-  <section class="mbs-articles-section" id="articles">
-
-    <!-- MIND -->
-    <div class="mbs-category-block">
-      <div class="mbs-category-header">
-        <h2><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=48&h=48&fit=crop&crop=center" alt="Mind" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;"> Mind</h2>
-        <a href="blog.html?cat=mind" class="mbs-see-all">All Mind Articles →</a>
-      </div>
-      <div class="mbs-articles-row">
-        <a href="blog-post-6.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=700&q=80&fit=crop" alt="Over-ear headphones health" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category work">Mind</span>
-              <span class="blog-date">May 23, 2025</span>
-            </div>
-            <h3>Why Over-Ear Headphones Are Better for Your Health Than Earbuds</h3>
-            <p>In-ear headphones place a speaker millimetres from your eardrum. Here's what the science says about the long-term cost.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-        <a href="blog-post-7.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=500&q=80&fit=crop" alt="Sitting all day health risks" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category work">Mind</span>
-              <span class="blog-date">May 23, 2025</span>
-            </div>
-            <h3>Sitting Is the New Smoking</h3>
-            <p>A meta-analysis of 1 million+ people found that sitting 8+ hours daily carries mortality risks comparable to obesity.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-        <a href="blog-post-2.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&q=80&fit=crop" alt="Morning ritual" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category work">Mind</span>
-              <span class="blog-date">May 8, 2025</span>
-            </div>
-            <h3>A 5-Minute Morning Ritual to Set Your Entire Day</h3>
-            <p>Five intentional minutes before the world gets loud. No cold plunge required.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <!-- BODY -->
-    <div class="mbs-category-block">
-      <div class="mbs-category-header">
-        <h2><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=48&h=48&fit=crop&crop=center" alt="Body" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;"> Body</h2>
-        <a href="blog.html?cat=body" class="mbs-see-all">All Body Articles →</a>
-      </div>
-      <div class="mbs-articles-row">
-        <a href="blog-post-1.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700&q=80&fit=crop" alt="Anti-inflammatory foods" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category">Body</span>
-              <span class="blog-date">May 15, 2025</span>
-            </div>
-            <h3>7 Anti-Inflammatory Foods to Add to Your Plate Today</h3>
-            <p>Chronic inflammation is quietly driving fatigue, brain fog, and disease. These seven foods fight back.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-        <a href="blog-post-3.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=500&q=80&fit=crop" alt="Walking exercise" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category">Body</span>
-              <span class="blog-date">April 30, 2025</span>
-            </div>
-            <h3>Why Walking Is the Most Underrated Exercise</h3>
-            <p>The research on longevity, mental health, and metabolic function all point to the same simple movement.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-        <a href="blog-post-5.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1571748982800-fa51082c2224?w=500&q=80&fit=crop" alt="Golden milk oats recipe" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category">Body</span>
-              <span class="blog-date">April 14, 2025</span>
-            </div>
-            <h3>Golden Milk Overnight Oats</h3>
-            <p>Five minutes prep. Anti-inflammatory, blood-sugar-stable, and genuinely delicious. This one stays in the rotation.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <!-- SOUL -->
-    <div class="mbs-category-block">
-      <div class="mbs-category-header">
-        <h2><img src="https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?w=48&h=48&fit=crop&crop=center" alt="Soul" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;"> Soul</h2>
-        <a href="blog.html?cat=soul" class="mbs-see-all">All Soul Articles →</a>
-      </div>
-      <div class="mbs-articles-row">
-        <a href="blog-post-4.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=700&q=80&fit=crop" alt="Sleep sanctuary bedroom" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category mindfulness">Soul</span>
-              <span class="blog-date">April 22, 2025</span>
-            </div>
-            <h3>How to Build a Sleep Sanctuary at Home</h3>
-            <p>Temperature, light, scent — the environmental variables that quietly govern whether you truly recover overnight.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-        <a href="blog-post-2.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&q=80&fit=crop" alt="Journaling reflection" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category mindfulness">Soul</span>
-              <span class="blog-date">May 8, 2025</span>
-            </div>
-            <h3>The Daily Journaling Practice That Changes Everything</h3>
-            <p>Five minutes of honest reflection, done consistently, compounds into something quietly life-changing.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-        <a href="blog-post-4.html" class="article-card fade-in">
-          <img src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=500&q=80&fit=crop" alt="Mindfulness reflection nature" />
-          <div class="article-card-body">
-            <div class="article-card-meta">
-              <span class="blog-category mindfulness">Soul</span>
-              <span class="blog-date">April 5, 2025</span>
-            </div>
-            <h3>Digital Detox: What Happens When You Step Away from the Scroll</h3>
-            <p>One week without social media. The results were surprising, uncomfortable, and ultimately freeing.</p>
-            <span class="read-more">Read More →</span>
-          </div>
-        </a>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- SECOND QUOTE -->
-  <div class="mbs-quote-strip" style="background: var(--charcoal);">
-    <blockquote>
+</blockquote>
+</div>
+<!-- ARTICLES BY CATEGORY -->
+<section class="mbs-articles-section" id="articles">
+<!-- MIND -->
+<div class="mbs-category-block">
+<div class="mbs-category-header">
+<h2><img alt="Mind" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=48&amp;h=48&amp;fit=crop&amp;crop=center" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;"/> Mind</h2>
+<a class="mbs-see-all" href="blog.html?cat=mind">All Mind Articles →</a>
+</div>
+<div class="mbs-articles-row">
+<a class="article-card fade-in" href="blog-post-6.html">
+<img alt="Over-ear headphones health" src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=700&amp;q=80&amp;fit=crop">
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category work">Mind</span>
+<span class="blog-date">May 23, 2025</span>
+</div>
+<h3>Why Over-Ear Headphones Are Better for Your Health Than Earbuds</h3>
+<p>In-ear headphones place a speaker millimetres from your eardrum. Here's what the science says about the long-term cost.</p>
+<span class="read-more">Read More →</span>
+</div>
+</img></a>
+<a class="article-card fade-in" href="blog-post-7.html">
+<img alt="Sitting all day health risks" src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=500&amp;q=80&amp;fit=crop"/>
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category work">Mind</span>
+<span class="blog-date">May 23, 2025</span>
+</div>
+<h3>Sitting Is the New Smoking</h3>
+<p>A meta-analysis of 1 million+ people found that sitting 8+ hours daily carries mortality risks comparable to obesity.</p>
+<span class="read-more">Read More →</span>
+</div>
+</a>
+<a class="article-card fade-in" href="blog-post-2.html">
+<img alt="Morning ritual" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=500&amp;q=80&amp;fit=crop"/>
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category work">Mind</span>
+<span class="blog-date">May 8, 2025</span>
+</div>
+<h3>A 5-Minute Morning Ritual to Set Your Entire Day</h3>
+<p>Five intentional minutes before the world gets loud. No cold plunge required.</p>
+<span class="read-more">Read More →</span>
+</div>
+</a>
+</div>
+</div>
+<!-- BODY -->
+<div class="mbs-category-block">
+<div class="mbs-category-header">
+<h2><img alt="Body" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=48&amp;h=48&amp;fit=crop&amp;crop=center" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;"/> Body</h2>
+<a class="mbs-see-all" href="blog.html?cat=body">All Body Articles →</a>
+</div>
+<div class="mbs-articles-row">
+<a class="article-card fade-in" href="blog-post-1.html">
+<img alt="Anti-inflammatory foods" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=700&amp;q=80&amp;fit=crop">
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category">Body</span>
+<span class="blog-date">May 15, 2025</span>
+</div>
+<h3>7 Anti-Inflammatory Foods to Add to Your Plate Today</h3>
+<p>Chronic inflammation is quietly driving fatigue, brain fog, and disease. These seven foods fight back.</p>
+<span class="read-more">Read More →</span>
+</div>
+</img></a>
+<a class="article-card fade-in" href="blog-post-3.html">
+<img alt="Walking exercise" src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=500&amp;q=80&amp;fit=crop"/>
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category">Body</span>
+<span class="blog-date">April 30, 2025</span>
+</div>
+<h3>Why Walking Is the Most Underrated Exercise</h3>
+<p>The research on longevity, mental health, and metabolic function all point to the same simple movement.</p>
+<span class="read-more">Read More →</span>
+</div>
+</a>
+<a class="article-card fade-in" href="blog-post-5.html">
+<img alt="Golden milk oats recipe" src="https://images.unsplash.com/photo-1571748982800-fa51082c2224?w=500&amp;q=80&amp;fit=crop"/>
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category">Body</span>
+<span class="blog-date">April 14, 2025</span>
+</div>
+<h3>Golden Milk Overnight Oats</h3>
+<p>Five minutes prep. Anti-inflammatory, blood-sugar-stable, and genuinely delicious. This one stays in the rotation.</p>
+<span class="read-more">Read More →</span>
+</div>
+</a>
+</div>
+</div>
+<!-- SOUL -->
+<div class="mbs-category-block">
+<div class="mbs-category-header">
+<h2><img alt="Soul" src="https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?w=48&amp;h=48&amp;fit=crop&amp;crop=center" style="width:28px;height:28px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:8px;"/> Soul</h2>
+<a class="mbs-see-all" href="blog.html?cat=soul">All Soul Articles →</a>
+</div>
+<div class="mbs-articles-row">
+<a class="article-card fade-in" href="blog-post-4.html">
+<img alt="Sleep sanctuary bedroom" src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=700&amp;q=80&amp;fit=crop">
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category mindfulness">Soul</span>
+<span class="blog-date">April 22, 2025</span>
+</div>
+<h3>How to Build a Sleep Sanctuary at Home</h3>
+<p>Temperature, light, scent — the environmental variables that quietly govern whether you truly recover overnight.</p>
+<span class="read-more">Read More →</span>
+</div>
+</img></a>
+<a class="article-card fade-in" href="blog-post-2.html">
+<img alt="Journaling reflection" src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&amp;q=80&amp;fit=crop"/>
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category mindfulness">Soul</span>
+<span class="blog-date">May 8, 2025</span>
+</div>
+<h3>The Daily Journaling Practice That Changes Everything</h3>
+<p>Five minutes of honest reflection, done consistently, compounds into something quietly life-changing.</p>
+<span class="read-more">Read More →</span>
+</div>
+</a>
+<a class="article-card fade-in" href="blog-post-4.html">
+<img alt="Mindfulness reflection nature" src="https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=500&amp;q=80&amp;fit=crop"/>
+<div class="article-card-body">
+<div class="article-card-meta">
+<span class="blog-category mindfulness">Soul</span>
+<span class="blog-date">April 5, 2025</span>
+</div>
+<h3>Digital Detox: What Happens When You Step Away from the Scroll</h3>
+<p>One week without social media. The results were surprising, uncomfortable, and ultimately freeing.</p>
+<span class="read-more">Read More →</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- SECOND QUOTE -->
+<div class="mbs-quote-strip" style="background: var(--charcoal);">
+<blockquote>
       "The groundwork for all happiness is good health."
       <cite>— Leigh Hunt</cite>
-    </blockquote>
-  </div>
+</blockquote>
+</div>
+<!-- NEWSLETTER -->
+<section class="newsletter" id="newsletter">
+<div class="newsletter-inner">
+<h2>The Weekly Reset</h2>
+<p>One article, one product, one habit to try — every week. No noise, no spam. Just one thing worth your attention.</p>
+<form class="newsletter-form" onsubmit="handleSubscribe(event)">
+<input placeholder="your@email.com" required="" type="email"/>
+<button class="btn btn-primary" type="submit">Subscribe Free</button>
+</form>
+<p class="newsletter-note">Join readers living better, one week at a time.</p>
+</div>
+</section>
+<div id="site-footer"></div>
 
-  <!-- NEWSLETTER -->
-  <section class="newsletter" id="newsletter">
-    <div class="newsletter-inner">
-      <h2>The Weekly Reset</h2>
-      <p>One article, one product, one habit to try — every week. No noise, no spam. Just one thing worth your attention.</p>
-      <form class="newsletter-form" onsubmit="handleSubscribe(event)">
-        <input type="email" placeholder="your@email.com" required />
-        <button type="submit" class="btn btn-primary">Subscribe Free</button>
-      </form>
-      <p class="newsletter-note">Join readers living better, one week at a time.</p>
-    </div>
-  </section>
 
-    <footer class="footer">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <h3>Live a Better Life</h3>
-        <p class="footer-tagline">
-          <span class="footer-mbs">Mind.</span>
-          <span class="footer-mbs">Body.</span>
-          <span class="footer-mbs">Soul.</span>
-        </p>
-        <p class="footer-sub">Small, evidence-based changes that compound into a life worth living.</p>
-        <div class="social-links">
-
-          <a href="https://www.pinterest.com/LiveBetterLifeFromToday/" aria-label="Pinterest"><img src="images/pintrest_logo.jpg" width="24" height="24"  alt="Pinterest" /></a>
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h4 class="footer-col-heading"><img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=48&h=48&fit=crop&crop=center" alt="Mind" style="width:22px;height:22px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;opacity:0.85;"> Mind</h4>
-        <ul>
-          <li><a href="blog-post-6.html">Headphones &amp; Hearing Health</a></li>
-          <li><a href="blog-post-7.html">Sitting Is the New Smoking</a></li>
-          <li><a href="blog-post-2.html">5-Minute Morning Ritual</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4 class="footer-col-heading"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=48&h=48&fit=crop&crop=center" alt="Body" style="width:22px;height:22px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;opacity:0.85;"> Body</h4>
-        <ul>
-          <li><a href="blog-post-1.html">Anti-Inflammatory Foods</a></li>
-          <li><a href="blog-post-3.html">Why Walking Works</a></li>
-          <li><a href="blog-post-5.html">Golden Milk Overnight Oats</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4 class="footer-col-heading"><img src="https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?w=48&h=48&fit=crop&crop=center" alt="Soul" style="width:22px;height:22px;border-radius:50%;object-fit:cover;vertical-align:middle;margin-right:6px;opacity:0.85;"> Soul</h4>
-        <ul>
-          <li><a href="blog-post-4.html">Build a Sleep Sanctuary</a></li>
-          <li><a href="blog-post-2.html">The Power of Journaling</a></li>
-          <li><a href="blog.html">All Articles →</a></li>
-          <li style="margin-top:0.8rem"><span style="color:#888;font-size:0.8rem">Privacy Policy</span></li>
-          <li><span style="color:#888;font-size:0.8rem">Affiliate Disclosure</span></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2026 Live a Better Life &nbsp;·&nbsp; Mind. Body. Soul. &nbsp;·&nbsp; Made with 🌿</p>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script></body>
 </html>

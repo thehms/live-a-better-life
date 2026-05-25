@@ -1,304 +1,243 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shop — Live a Better Life</title>
-  <meta name="description" content="Our hand-picked product recommendations across Work Smart, Eat Smart, Exercise Well and Reflect categories. Affiliate links disclosed." />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Recommended Products — Live a Better Life" />
-  <meta property="og:description" content="Our hand-picked product recommendations across Work Smart, Eat Smart, Exercise Well and Reflect categories. Affiliate links disclosed." />
-  <meta property="og:image" content="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&q=80" />
-  <meta property="og:site_name" content="Live a Better Life" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Recommended Products — Live a Better Life" />
-  <meta name="twitter:description" content="Our hand-picked product recommendations across Work Smart, Eat Smart, Exercise Well and Reflect categories. Affiliate links disclosed." />
-  <meta name="twitter:image" content="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&q=80" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Shop — Live a Better Life</title>
+<meta content="Our hand-picked product recommendations across Work Smart, Eat Smart, Exercise Well and Reflect categories. Affiliate links disclosed." name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="Recommended Products — Live a Better Life" property="og:title"/>
+<meta content="Our hand-picked product recommendations across Work Smart, Eat Smart, Exercise Well and Reflect categories. Affiliate links disclosed." property="og:description"/>
+<meta content="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&amp;q=80" property="og:image"/>
+<meta content="Live a Better Life" property="og:site_name"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Recommended Products — Live a Better Life" name="twitter:title"/>
+<meta content="Our hand-picked product recommendations across Work Smart, Eat Smart, Exercise Well and Reflect categories. Affiliate links disclosed." name="twitter:description"/>
+<meta content="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200&amp;q=80" name="twitter:image"/>
+<link href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🌿&lt;/text&gt;&lt;/svg&gt;" rel="icon"/>
+<link href="css/style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script> -->
+<!-- ═══════════════════════════════════════════════ --></head>
 <body>
+<div id="site-nav"></div>
+<section class="page-hero">
+<span class="hero-tag">Handpicked for Your Health</span>
+<h1>Our Recommended Products</h1>
+<p>Products we genuinely love — and no, we did not get paid to say that. (We did get paid a little. See disclosure below. 👇)</p>
+</section>
+<div class="affiliate-notice">
+<p>🔗 <strong>Affiliate Disclosure:</strong> Some links on this page are affiliate links. If you click and make a purchase, we may earn a small commission at no extra cost to you. We only recommend products we genuinely believe in.</p>
+</div>
+<section class="shop-section">
+<div class="filter-bar">
+<button class="filter-btn active" data-filter="all">All</button>
+<button class="filter-btn" data-filter="cat1">Work Smart 💼</button>
+<button class="filter-btn" data-filter="cat2">Eat Smart 🥗</button>
+<button class="filter-btn" data-filter="cat3">Exercise Well 🏋️</button>
+<button class="filter-btn" data-filter="cat4">Reflect on Your Day 🧘</button>
+</div>
+<div class="products-full-grid">
+<!-- ===== WORK SMART ===== -->
+<div class="product-card" data-category="cat1">
+<img alt="SEDETA Electric Standing Desk" class="product-img" src="images/farmhouse-standing-desk.jpg" style="object-position:center"/>
+<div class="product-info">
+<span class="product-tag">Top Pick</span>
+<h4>SEDETA Electric Standing Desk 63"</h4>
+<p>Height-adjustable desk with 3 drawers, storage shelves and built-in power outlets. Your back has been asking for this. It's time to listen.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="https://amzn.to/4scPtm8" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat1">
+<img alt="Sennheiser HD 599 SE Headphones" class="product-img" src="images/sennheiser-hd599.jpg" style="object-position:center"/>
+<div class="product-info">
+<span class="product-tag">Editor's Choice</span>
+<h4>Sennheiser HD 599 SE Headphones</h4>
+<p>Open-back headphones with natural balanced audio and a comfortable fit. Because "do not disturb" should also apply to sound quality.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="https://amzn.to/4sO4R8H" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat1">
+<img alt="Everlasting Comfort Lumbar Support" class="product-img" src="https://images.unsplash.com/photo-1587212786968-c72de5e5e7d6?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<h4>Everlasting Comfort Lumbar Support</h4>
+<p>Memory foam seat cushion and lumbar pillow set with 93,000+ Amazon reviews. Your spine deserves the same care you give your inbox.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat1">
+<img alt="POTUPUS Under Desk Walking Pad" class="product-img" src="images/farmhouse-standing-desk.jpg" style="object-position:top"/>
+<div class="product-info">
+<span class="product-tag new">Trending</span>
+<h4>POTUPUS Under Desk Walking Pad</h4>
+<p>Walk while you work — up to 7.6MPH, 350LB capacity, fits under any standing desk. Emails are more fun when your legs are moving.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<!-- ===== EAT SMART ===== -->
+<div class="product-card" data-category="cat2">
+<img alt="Vitamix 5200 Blender" class="product-img" src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<span class="product-tag">Top Pick</span>
+<h4>Vitamix 5200 Professional Blender</h4>
+<p>The last blender you'll ever buy. Makes smoothies, soups, and ice cream — and cleans itself. Basically the overachiever of your kitchen.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="https://amzn.to/4rV2no0" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat2">
+<img alt="NatureWise Vitamin D3" class="product-img" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<span class="product-tag">Bestseller</span>
+<h4>NatureWise Vitamin D3 5000 IU</h4>
+<p>180,000+ Amazon reviews — basically the most beloved supplement on the internet. Supports immunity, mood, and energy. Daily non-negotiable.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat2">
+<img alt="Hamilton Beach Food Processor" class="product-img" src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<h4>Hamilton Beach Food Processor</h4>
+<p>S-blade, shredding disk, spiralizer — everything a dietitian recommends for fast, healthy meal prep. Your Sunday self will thank your Monday self.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat2">
+<img alt="Joseph Joseph Meal Prep Containers" class="product-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<span class="product-tag new">New Pick</span>
+<h4>Joseph Joseph Nest Lock Containers</h4>
+<p>BPA-free, color-coded, nest together for easy storage. Meal prep just got a glow-up. No more "which lid fits which bowl" rage.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<!-- ===== EXERCISE WELL ===== -->
+<div class="product-card" data-category="cat3">
+<img alt="Marcy Smith Machine Home Gym" class="product-img" src="images/home-workout.jpg" style="object-position:center"/>
+<div class="product-info">
+<span class="product-tag">Top Pick</span>
+<h4>Marcy Smith Machine Cage System</h4>
+<p>Commercial-grade home gym with customizable training stations. Skip the gym commute — and the guy who never wipes down the equipment.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="https://amzn.to/4cr6R1i" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat3">
+<img alt="Gaiam Yoga Mat" class="product-img" src="images/home-workout.jpg" style="object-position:top"/>
+<div class="product-info">
+<span class="product-tag">Bestseller</span>
+<h4>Gaiam Essentials Yoga Mat 10mm</h4>
+<p>Non-slip, thick, cushioned mat for yoga, pilates, or lying on the floor contemplating your life choices. No judgment here.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat3">
+<img alt="ZELUS Weighted Vest" class="product-img" src="images/home-workout.jpg" style="object-position:bottom"/>
+<div class="product-info">
+<h4>ZELUS Weighted Vest 6–30 lbs</h4>
+<p>Add resistance to any workout — walking, running, bodyweight training. Because making things harder on purpose is peak human behavior.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat3">
+<img alt="Etekcity Smart Body Scale" class="product-img" src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<span class="product-tag new">Trending</span>
+<h4>Etekcity Smart Body Scale</h4>
+<p>Tracks BMI, body fat, and muscle mass via Bluetooth app. FSA/HSA eligible. The most honest friend you'll ever have — no sugar-coating.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<!-- ===== REFLECT ON YOUR DAY ===== -->
+<div class="product-card" data-category="cat4">
+<img alt="My Gratitude Journal" class="product-img" src="images/gratitude-journal.jpg" style="object-position:center"/>
+<div class="product-info">
+<span class="product-tag">Top Pick</span>
+<h4>My Gratitude Journal</h4>
+<p>Capture your highs, lows, wins, goals, and the magic in everyday moments. Simple daily pages for both quick notes and deeper reflection. By the end, you'll hold a story of growth — and wonder why you didn't start sooner.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="https://amzn.to/3PtNQlM" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat4">
+<img alt="Calm Guided Meditation Book" class="product-img" src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<h4>Calm: Guided Meditation &amp; Mindfulness</h4>
+<p>A beautifully illustrated intro to mindfulness for beginners. For when your brain has 47 tabs open and you need to close all of them.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat4">
+<img alt="Pure Encapsulations Magnesium" class="product-img" src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<span class="product-tag">Bestseller</span>
+<h4>Pure Encapsulations Magnesium Glycinate</h4>
+<p>40,000+ Amazon reviews. Supports sleep, stress recovery, and mental clarity. The wind-down supplement your evenings deserve.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+<div class="product-card" data-category="cat4">
+<img alt="HIQILI Lavender Essential Oil" class="product-img" src="https://images.unsplash.com/photo-1602928298849-325cec8771c0?w=600&amp;q=80&amp;fit=crop"/>
+<div class="product-info">
+<h4>HIQILI Lavender Essential Oil</h4>
+<p>100% pure lavender for your diffuser. Transforms your room into a spa in 30 seconds. Your coworkers on Zoom still won't notice, but you will.</p>
+<div class="product-footer">
+<a class="btn btn-small" href="#your-affiliate-link" rel="noopener noreferrer" target="_blank">Shop on Amazon</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="affiliate-footer-note">
+<p>* As an Amazon Associate, Live a Better Life earns from qualifying purchases. Prices and availability are subject to change.</p>
+</div>
+<section class="newsletter">
+<div class="newsletter-inner">
+<h2>Get Wellness Tips in Your Inbox</h2>
+<p>Subscribe for weekly tips, new product picks, and exclusive content.</p>
+<form class="newsletter-form" onsubmit="handleSubscribe(event)">
+<input placeholder="your@email.com" required="" type="email"/>
+<button class="btn btn-primary" type="submit">Subscribe</button>
+</form>
+</div>
+</section>
+<div id="site-footer"></div>
 
-  <nav class="nav">
-    <a href="index.html" class="nav-logo">Live a Better Life</a>
-          <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html?cat=mind" class="nav-mbs">Mind</a></li>
-        <li><a href="blog.html?cat=body" class="nav-mbs">Body</a></li>
-        <li><a href="blog.html?cat=soul" class="nav-mbs">Soul</a></li>
-        <li><a href="blog.html">All Articles</a></li>
-        <li><a href="index.html#newsletter" class="nav-cta">Newsletter</a></li>
-      </ul>
-    <button class="nav-hamburger" id="hamburger">&#9776;</button>
-  </nav>
 
-  <section class="page-hero">
-    <span class="hero-tag">Handpicked for Your Health</span>
-    <h1>Our Recommended Products</h1>
-    <p>Products we genuinely love — and no, we did not get paid to say that. (We did get paid a little. See disclosure below. 👇)</p>
-  </section>
-
-  <div class="affiliate-notice">
-    <p>🔗 <strong>Affiliate Disclosure:</strong> Some links on this page are affiliate links. If you click and make a purchase, we may earn a small commission at no extra cost to you. We only recommend products we genuinely believe in.</p>
-  </div>
-
-  <section class="shop-section">
-    <div class="filter-bar">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="cat1">Work Smart 💼</button>
-      <button class="filter-btn" data-filter="cat2">Eat Smart 🥗</button>
-      <button class="filter-btn" data-filter="cat3">Exercise Well 🏋️</button>
-      <button class="filter-btn" data-filter="cat4">Reflect on Your Day 🧘</button>
-    </div>
-
-    <div class="products-full-grid">
-
-      <!-- ===== WORK SMART ===== -->
-      <div class="product-card" data-category="cat1">
-        <img src="images/farmhouse-standing-desk.jpg" alt="SEDETA Electric Standing Desk" class="product-img" style="object-position:center" />
-        <div class="product-info">
-          <span class="product-tag">Top Pick</span>
-          <h4>SEDETA Electric Standing Desk 63"</h4>
-          <p>Height-adjustable desk with 3 drawers, storage shelves and built-in power outlets. Your back has been asking for this. It's time to listen.</p>
-          <div class="product-footer">
-            <a href="https://amzn.to/4scPtm8" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat1">
-        <img src="images/sennheiser-hd599.jpg" alt="Sennheiser HD 599 SE Headphones" class="product-img" style="object-position:center" />
-        <div class="product-info">
-          <span class="product-tag">Editor's Choice</span>
-          <h4>Sennheiser HD 599 SE Headphones</h4>
-          <p>Open-back headphones with natural balanced audio and a comfortable fit. Because "do not disturb" should also apply to sound quality.</p>
-          <div class="product-footer">
-            <a href="https://amzn.to/4sO4R8H" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat1">
-        <img src="https://images.unsplash.com/photo-1587212786968-c72de5e5e7d6?w=600&q=80&fit=crop" alt="Everlasting Comfort Lumbar Support" class="product-img" />
-        <div class="product-info">
-          <h4>Everlasting Comfort Lumbar Support</h4>
-          <p>Memory foam seat cushion and lumbar pillow set with 93,000+ Amazon reviews. Your spine deserves the same care you give your inbox.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat1">
-        <img src="images/farmhouse-standing-desk.jpg" alt="POTUPUS Under Desk Walking Pad" class="product-img" style="object-position:top" />
-        <div class="product-info">
-          <span class="product-tag new">Trending</span>
-          <h4>POTUPUS Under Desk Walking Pad</h4>
-          <p>Walk while you work — up to 7.6MPH, 350LB capacity, fits under any standing desk. Emails are more fun when your legs are moving.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- ===== EAT SMART ===== -->
-      <div class="product-card" data-category="cat2">
-        <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=600&q=80&fit=crop" alt="Vitamix 5200 Blender" class="product-img" />
-        <div class="product-info">
-          <span class="product-tag">Top Pick</span>
-          <h4>Vitamix 5200 Professional Blender</h4>
-          <p>The last blender you'll ever buy. Makes smoothies, soups, and ice cream — and cleans itself. Basically the overachiever of your kitchen.</p>
-          <div class="product-footer">
-            <a href="https://amzn.to/4rV2no0" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat2">
-        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80&fit=crop" alt="NatureWise Vitamin D3" class="product-img" />
-        <div class="product-info">
-          <span class="product-tag">Bestseller</span>
-          <h4>NatureWise Vitamin D3 5000 IU</h4>
-          <p>180,000+ Amazon reviews — basically the most beloved supplement on the internet. Supports immunity, mood, and energy. Daily non-negotiable.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat2">
-        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80&fit=crop" alt="Hamilton Beach Food Processor" class="product-img" />
-        <div class="product-info">
-          <h4>Hamilton Beach Food Processor</h4>
-          <p>S-blade, shredding disk, spiralizer — everything a dietitian recommends for fast, healthy meal prep. Your Sunday self will thank your Monday self.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat2">
-        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80&fit=crop" alt="Joseph Joseph Meal Prep Containers" class="product-img" />
-        <div class="product-info">
-          <span class="product-tag new">New Pick</span>
-          <h4>Joseph Joseph Nest Lock Containers</h4>
-          <p>BPA-free, color-coded, nest together for easy storage. Meal prep just got a glow-up. No more "which lid fits which bowl" rage.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- ===== EXERCISE WELL ===== -->
-      <div class="product-card" data-category="cat3">
-        <img src="images/home-workout.jpg" alt="Marcy Smith Machine Home Gym" class="product-img" style="object-position:center" />
-        <div class="product-info">
-          <span class="product-tag">Top Pick</span>
-          <h4>Marcy Smith Machine Cage System</h4>
-          <p>Commercial-grade home gym with customizable training stations. Skip the gym commute — and the guy who never wipes down the equipment.</p>
-          <div class="product-footer">
-            <a href="https://amzn.to/4cr6R1i" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat3">
-        <img src="images/home-workout.jpg" alt="Gaiam Yoga Mat" class="product-img" style="object-position:top" />
-        <div class="product-info">
-          <span class="product-tag">Bestseller</span>
-          <h4>Gaiam Essentials Yoga Mat 10mm</h4>
-          <p>Non-slip, thick, cushioned mat for yoga, pilates, or lying on the floor contemplating your life choices. No judgment here.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat3">
-        <img src="images/home-workout.jpg" alt="ZELUS Weighted Vest" class="product-img" style="object-position:bottom" />
-        <div class="product-info">
-          <h4>ZELUS Weighted Vest 6–30 lbs</h4>
-          <p>Add resistance to any workout — walking, running, bodyweight training. Because making things harder on purpose is peak human behavior.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat3">
-        <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=600&q=80&fit=crop" alt="Etekcity Smart Body Scale" class="product-img" />
-        <div class="product-info">
-          <span class="product-tag new">Trending</span>
-          <h4>Etekcity Smart Body Scale</h4>
-          <p>Tracks BMI, body fat, and muscle mass via Bluetooth app. FSA/HSA eligible. The most honest friend you'll ever have — no sugar-coating.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- ===== REFLECT ON YOUR DAY ===== -->
-      <div class="product-card" data-category="cat4">
-        <img src="images/gratitude-journal.jpg" alt="My Gratitude Journal" class="product-img" style="object-position:center" />
-        <div class="product-info">
-          <span class="product-tag">Top Pick</span>
-          <h4>My Gratitude Journal</h4>
-          <p>Capture your highs, lows, wins, goals, and the magic in everyday moments. Simple daily pages for both quick notes and deeper reflection. By the end, you'll hold a story of growth — and wonder why you didn't start sooner.</p>
-          <div class="product-footer">
-            <a href="https://amzn.to/3PtNQlM" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat4">
-        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80&fit=crop" alt="Calm Guided Meditation Book" class="product-img" />
-        <div class="product-info">
-          <h4>Calm: Guided Meditation &amp; Mindfulness</h4>
-          <p>A beautifully illustrated intro to mindfulness for beginners. For when your brain has 47 tabs open and you need to close all of them.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat4">
-        <img src="https://images.unsplash.com/photo-1608248597279-f99d160bfcbc?w=600&q=80&fit=crop" alt="Pure Encapsulations Magnesium" class="product-img" />
-        <div class="product-info">
-          <span class="product-tag">Bestseller</span>
-          <h4>Pure Encapsulations Magnesium Glycinate</h4>
-          <p>40,000+ Amazon reviews. Supports sleep, stress recovery, and mental clarity. The wind-down supplement your evenings deserve.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="product-card" data-category="cat4">
-        <img src="https://images.unsplash.com/photo-1602928298849-325cec8771c0?w=600&q=80&fit=crop" alt="HIQILI Lavender Essential Oil" class="product-img" />
-        <div class="product-info">
-          <h4>HIQILI Lavender Essential Oil</h4>
-          <p>100% pure lavender for your diffuser. Transforms your room into a spa in 30 seconds. Your coworkers on Zoom still won't notice, but you will.</p>
-          <div class="product-footer">
-            <a href="#your-affiliate-link" target="_blank" rel="noopener noreferrer" class="btn btn-small">Shop on Amazon</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <div class="affiliate-footer-note">
-    <p>* As an Amazon Associate, Live a Better Life earns from qualifying purchases. Prices and availability are subject to change.</p>
-  </div>
-
-  <section class="newsletter">
-    <div class="newsletter-inner">
-      <h2>Get Wellness Tips in Your Inbox</h2>
-      <p>Subscribe for weekly tips, new product picks, and exclusive content.</p>
-      <form class="newsletter-form" onsubmit="handleSubscribe(event)">
-        <input type="email" placeholder="your@email.com" required />
-        <button type="submit" class="btn btn-primary">Subscribe</button>
-      </form>
-    </div>
-  </section>
-
-  <footer class="footer" id="contact">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <h3>Live a Better Life</h3>
-        <p>Living well, one day at a time.</p>
-        <div class="social-links">
-          <a href="https://www.pinterest.com/LiveBetterLifeFromToday/" aria-label="Pinterest"><img src="images/pintrest_logo.jpg" alt="Pinterest" /></a>
-        </div>
-      </div>
-      <div class="footer-col">
-        <h4>Explore</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="products.html">Shop</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Support</h4>
-        <ul>
-          <li><span style="color:#888">Privacy Policy</span></li>
-          <li><span style="color:#888">Affiliate Disclosure</span></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="mailto:hello@liveabetterlife.com">hello@liveabetterlife.com</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2026 Live a Better Life. Made with 🌿 for your wellbeing. | <span style="color:#888">Affiliate Disclosure</span></p>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
-</body>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script></body>
 </html>
